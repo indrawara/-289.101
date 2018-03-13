@@ -1,0 +1,25 @@
+.violet_text{color:violet;}
+.blue_text{color:blue;}
+.red_text{color:red;}
+.orange_text{color:orange}
+.pink_text{color:pink}
+
+.box_1{width: 200px;
+    height: 200px;
+    background-color:red;
+    float:left;
+
+}
+
+
+.box_2{
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    float:left;}
+    
+.container{width:400px;
+           height:400px;
+           margin-left:auto;
+           margin-top:auto;}
+           

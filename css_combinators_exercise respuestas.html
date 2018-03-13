@@ -3,28 +3,27 @@
 <head>
   <title>CSS Combinators Exercise</title>
   <style>
-      .firstviolet{color:violet;}
-      .firstred{color:red;}
-      .firstblue{color:blue;}
-      .firstorange{color:orange}
-      .firstpink{color:pink}
-    
-      ul{color:orange  }
-      em{ color:pink    }
+      div ol{color:violet;}
+      div >p {color:red;}
+      p + p {color:blue;}
+      p ~ ul{color:orange;}
+      p~ ul em {color:pink;}
+      
+     
       
   </style>
 </head>
 <body>
   <div>
     leave this text as the default black
-    <ol class="firstviolet">
+    <ol>
       <li>make the text for list items 1 and 2 violet using a descendant selector</li>
       <li>make the text for list items 1 and 2 violet using a descendant selector</li>
     </ol>
-    <p class="firstred">
+    <p >
       make this text red using a child selector
     </p>
-    <p class="firstblue">
+    <p >
       make this text blue using an adjacent selector
     </p>
     <ul>

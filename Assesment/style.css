@@ -1,7 +1,6 @@
 .body{background-color: #ebb3a2;}
 
 .pages{bottom: 30px;
-    
     position: fixed;
     left: 40.5%;
     font-style: italic bold ;
@@ -9,15 +8,19 @@
     background-color:#f7e6e1;
     border-style:hidden;
     border-radius: 20px;
-    box-sizing:border-box;
     box-sizing: border-box;
     width: auto;
     height: 100px;
-    padding: 40px;    
-    
-    
-     
-    
-  
-    }   
+    padding: 40px;    }   
 .title{font-style:italic bold}
+
+
+.artgallery{ position: fixed;
+    left:33%;}
+
+.artpieces{
+             background-color: red;
+             float: left;
+             height: 400px;
+             width: 320px;
+             bottom: 150px;}

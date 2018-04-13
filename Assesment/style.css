@@ -1,0 +1,16 @@
+.body{background-color: #ebb3a2;}
+
+.pages{bottom: 30px;
+       max-width: 100%;
+    position: absolute;
+    transform: translateX(+150%);
+    font-style: italic bold ;
+    font-size: 20px ;
+    background-color:#f7e6e1;
+    border-style:hidden;
+    border-radius: 20px;
+    border width: 300px;
+    border height: 60pxpx;
+
+    }   
+.title{font-style:italic bold}

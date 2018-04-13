@@ -1,16 +1,23 @@
 .body{background-color: #ebb3a2;}
 
 .pages{bottom: 30px;
-       max-width: 100%;
-    position: absolute;
-    transform: translateX(+150%);
+    
+    position: fixed;
+    left: 40.5%;
     font-style: italic bold ;
     font-size: 20px ;
     background-color:#f7e6e1;
     border-style:hidden;
     border-radius: 20px;
-    border width: 300px;
-    border height: 60pxpx;
-
+    box-sizing:border-box;
+    box-sizing: border-box;
+    width: auto;
+    height: 100px;
+    padding: 40px;    
+    
+    
+     
+    
+  
     }   
 .title{font-style:italic bold}

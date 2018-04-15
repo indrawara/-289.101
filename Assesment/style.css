@@ -3,8 +3,6 @@
 .pages{bottom: 30px;
     position: fixed;
     left: 40.5%;
-    font-style: italic bold ;
-    font-size: 20px ;
     background-color:#f7e6e1;
     border-style:hidden;
     border-radius: 20px;
@@ -12,6 +10,9 @@
     width: auto;
     height: 100px;
     padding: 40px;    }   
+
+.pages{font-style: italic bold ;
+    font-size: 20px ;}
 
 .title{font-style:italic bold}
 
@@ -26,14 +27,11 @@ div.gallery {
 
 div.gallery:hover {
     border: 1px solid #777;
+    
 }
 
-div.gallery img {
-    width: 150%;
-    height: auto;
-    
-    
-}
+div.gallery img { width: 150%;
+    height: auto;}
 
 div.desc {
     padding: 15px;
@@ -47,7 +45,7 @@ div.desc {
 }
 
 .responsive {
-    padding: 0 6px;
+    padding: 06px;
     float: left;
     width: 20%;
 }
